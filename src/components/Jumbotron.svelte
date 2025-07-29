@@ -2,7 +2,7 @@
 
 </script>
 
-<section class="h-[80vh] overflow-hidden relative flex flex-col justify-center items-center w-full bg-slate-50 pt-20 pb-16">
+<section class="h-[700px] overflow-hidden relative flex flex-col justify-center items-center w-full bg-slate-50 pt-20 pb-16">
   <div class="flex flex-col gap-6 justify-center relative top-0">
     <h1 class="text-center text-3xl md:text-5xl leading-16">
       Safeguarding Online Presence, <br> <strong class="text-sukadigital">Protecting Your Data Fast.</strong>
@@ -18,7 +18,7 @@
       </a>
     </div>
   </div>
-  <div class="relative -bottom-12 w-[700px] h-auto">
+  <div class="relative -bottom-20 w-[600px] h-auto">
     <img
       src="/img/illustration-technology.svg"
       alt=""

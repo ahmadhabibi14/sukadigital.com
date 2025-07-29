@@ -2,6 +2,7 @@
 import { SiteAuthor, SiteBaseUrl, SiteDesc, SiteImageUrl, SiteName } from "@/lib/constant";
 import "../styles/global.css";
 import Navbar from "@/partials/Navbar/Navbar.astro";
+import Footer from "@/partials/Footer.astro";
 
 const {
 	title = SiteName,
@@ -45,6 +46,9 @@ const {
 	</head>
 	<body class="text-slate-700">
 		<Navbar />
-		<slot />
+		<div class="min-h-[90vh]">
+			<slot />
+		</div>
+		<Footer />
 	</body>
 </html>
